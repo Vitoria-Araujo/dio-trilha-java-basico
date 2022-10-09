@@ -5,7 +5,7 @@ public class OperadoresLogicos {
 
         boolean condicao2 = false;
 
-        if( condicao1 && (7 > 4)){
+        if( condicao1 && (7 > 4)){ // true
 
             System.out.println("As duas condições são verdadeiras");
         }
