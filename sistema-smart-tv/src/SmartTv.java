@@ -3,13 +3,28 @@ public class SmartTv {
     int canal = 1;
     int volume = 25;
 
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+    }
+    
+   public void aumentarCanal(){
+        canal++;
+   }
+   public void diminuirCanal(){
+        canal --;
+   }
+        
+    
+
     //Criando os metodos que manipulam esses status
 
     public void aumentarVolume(){
         volume++;
+        System.out.println("Aumentando o volume para: " + volume);
     }
     public void diminuirVolume(){
         volume--;
+        System.out.println("Diminuindo o volume para: " + volume);
     }
 
     public void ligar(){
@@ -20,4 +35,6 @@ public class SmartTv {
         ligada=false;
 
     }
+
+    
 }
