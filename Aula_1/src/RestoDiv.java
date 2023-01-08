@@ -1,4 +1,4 @@
-public class Restodiv {
+public class RestoDiv {
     public static void main(String[] args) {
         //FAÇA UM PROGRAMA QUE MOSTRE O RESTO DA DIVISAO DE 2 NÚMEROS QUEBRADOS
         double a = 3.2;
